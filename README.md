@@ -18,6 +18,6 @@ Script will save remapped bigwig file with .hg19 extension
 #Usage
 
 <pre>
-chmod 755 ./wigLiftOver2bigWig
-./bigWigLiftOver path/to/bigwig/file.bw
+chmod 755 ./wigLiftOver2bigWig.sh
+./wigLiftOver2bigWig.sh path/to/bigwig/file.bw
 </pre>
