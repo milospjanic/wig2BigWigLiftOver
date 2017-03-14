@@ -1,6 +1,6 @@
-#wig2bigWigLiftOver
-
 #!/bin/bash
+
+###wig2bigWigLiftOver
 
 DIR=wig2bigWigLiftOver
 FILE=wigToBigWig
