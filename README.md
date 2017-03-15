@@ -1,4 +1,4 @@
-# wig2bigWigLiftOver
+# wig2BigWigLiftOver
 
 This script will convert wig files from coordinates hg18 to coordinates hg19 of the human genome and output a bigwig file.
 
