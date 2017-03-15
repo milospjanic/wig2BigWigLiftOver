@@ -1,8 +1,8 @@
 #!/bin/bash
 
-###wig2bigWigLiftOver
+###wig2BigWigLiftOver
 
-DIR=wig2bigWigLiftOver
+DIR=wig2BigWigLiftOver
 FILE=wigToBigWig
 HG18=hg18.chrom.sizes
 FILE1=bigWigToBedGraph
@@ -19,10 +19,10 @@ echo $BIGWIG
 
 if [ ! -d $DIR ]
 then
-mkdir ~/bigWigLiftOver
+mkdir ~/$DIR
 fi
 
-cd ~/bigWigLiftOver
+cd ~/$DIR
 
 #check if wigToBigWig file exists, if not, download from http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64.v287/wigToBigWig
 
