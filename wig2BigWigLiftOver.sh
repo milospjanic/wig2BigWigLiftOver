@@ -17,7 +17,7 @@ echo $BIGWIG
 
 #check if working folder exist, if not, create
 
-if [ ! -d $DIR ]
+if [ ! -d ~/$DIR ]
 then
 mkdir ~/$DIR
 fi
